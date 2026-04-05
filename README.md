@@ -7,12 +7,12 @@ created for DSCI 310 Individual Assignment 5.
 
 ## Installation
 
-You can install the development version of `arnavpkgR` from
+You can install the development version of `arnav-toy-package-r` from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("arnavg03/arnav_toy_package_r")
+devtools::install_github("arnavg03/arnav-toy-package-r")
 ```
 
 ## Example
@@ -29,12 +29,6 @@ x <- c(34, 7, 23, 32, 5, 62, 32)
 quick_sort(x)
 #> [1]  5  7 23 32 32 34 62
 ```
-
-## Why README.Rmd?
-
-Using `README.Rmd` allows you to include live R chunks. When you run
-`devtools::build_readme()`, R executes the code and embeds the results
-directly into the `README.md` that people see on GitHub.
 
 ## Copyright
 
